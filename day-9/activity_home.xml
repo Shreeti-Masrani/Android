@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    tools:context=".home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME!!!!"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background"
+        android:textColor="@color/purple_200"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:text="Name"
+        android:id="@+id/n"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:text="Email"
+        android:background="@color/cardview_dark_background"
+        android:textColor="@color/purple_200"
+        android:id="@+id/e"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Contact"
+        android:background="@color/cardview_dark_background"
+        android:textColor="@color/purple_200"
+        android:id="@+id/c"
+        android:textStyle="italic"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LOGOUT"
+        android:id="@+id/lo"/>
+
+</LinearLayout>
